@@ -1,16 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Montserrat;
+  background-color: #2196f3;
+}
+.xcard-header {
+  font-weight: 600;
+  color: blue;
+  text-align: left;
+  padding: 3% 0;
+}
+.years {
+  padding: 3% 0;
+}
+.btns {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.yearhead {
+  text-align: center;
+  border-bottom: 1px solid black;
+  margin: 8% 6%;
+  padding: 0 0 2% 0;
+  width: 88%;
+}
+.sec{
+  margin:1% 5%
+}
+.Items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* min-width: 200px; */
+  /* max-width: 250px; */
+}
+.xcard {
+  max-width: 250px;
+  min-width: 200px;
+  text-align: center;
+  /* border: 1px solid black; */
+  padding: 2%;
+  margin: 2%;
+  min-height: 250px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 a {
   color: inherit;
   text-decoration: none;
 }
-
+.xcard-body {
+  text-align: left;
+  /* padding: 1%; */
+}
+.launch_year {
+  /* text-align: left; */
+  color: black;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+span.texty {
+  text-transform: capitalize;
+  color: #2196f3;
+}
 * {
   box-sizing: border-box;
+}
+@media only screen and (max-width: 600px) {
+  .sec{
+    margin:1% 15%
+  }
 }
